@@ -1,0 +1,15 @@
+{
+  "name": "anime-site",
+  "version": "1.0.0",
+  "description": "Аниме сайт от команды QIK",
+  "main": "script/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "QIK team",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

@@ -1,0 +1,25 @@
+* {
+    font-family: 'Courier New', monospace;
+    color: white;
+    background-color: black;
+}
+
+:root {
+    --color__first: #ed1818;
+    --color__second: #27ffa1;
+}
+
+pre {
+    display: inline-block;
+    margin: 0; 
+    background-color: #333; 
+    border-radius: 5px;
+}
+
+.first__color__text {
+    color: var(--color__first);
+}
+
+.second__color__text {
+    color: var(--color__second);
+}
